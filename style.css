@@ -1,0 +1,106 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px 0;
+}
+
+#hero {
+    background-color: #ffe4e1;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    color: #4b0082;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4b0082;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#featured-products {
+    padding: 50px 0;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
